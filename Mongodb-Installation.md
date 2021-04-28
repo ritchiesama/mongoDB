@@ -1,6 +1,6 @@
 1.Download the installer from (https://www.mongodb.com/try/download/community)  
 2.Install the mongo db under the direction  
-3.Open cmd in the .\Mongdb\Server\4.4\bing
+3.Open cmd in the .\Mongdb\Server\4.4\bin
 4.Keyin 
 ```cmd  
 > mongod
@@ -27,3 +27,15 @@ The following information should be shown:
 >config  0.000GB 
 >local   0.000GB 
 
+
+Create short path:  
+1. Copy the path of .\Mongdb\Server\4.4\bin
+2. Open Find, type Variable, open Edit the System Environment Variable
+3. Open Environment Variables
+4. Click the path line in the System variables
+5. Click New, and Paste the path we just copied
+6. Click OK on all the windows
+7. Next time we can run the mongodb in the original cmd through the command
+```cmd
+> mongod
+```
